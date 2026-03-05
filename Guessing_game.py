@@ -1,9 +1,9 @@
 import random
 
-number = random.randint(1, 10) 
+number = random.randint(1, 30) 
 guess = 0
 
-print("Guess a number between 1 and 10")
+print("Guess a number between 1 and 30")
 
 while guess != number:
     guess = int(input("Your guess: "))
